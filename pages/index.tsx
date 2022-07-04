@@ -4,7 +4,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-  return null;
+  return (<div className='bg-red-100'>
+    <h1 className='text-blue-500'>tailwind css</h1>
+  </div> )
 }
 
 export default Home
